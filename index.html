@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>.</title>
+  <title>冬小窝</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description">
 <meta property="og:type" content="website">
-<meta property="og:title" content=".">
+<meta property="og:title" content="冬小窝">
 <meta property="og:url" content="http://wangdong.me/">
-<meta property="og:site_name" content=".">
+<meta property="og:site_name" content="冬小窝">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content=".">
+<meta name="twitter:title" content="冬小窝">
 <meta name="twitter:description">
 
   
-    <link rel="alternative" href="/atom.xml" title="." type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="冬小窝" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -35,7 +35,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">.</a>
+        <a href="/" id="logo">冬小窝</a>
       </h1>
       
     </div>
@@ -89,57 +89,67 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>D3.js 是一款基于数据驱动文档的js可视化库。主要采用HTML、SVG和CSS技术对数据进行可视化。D3.js严格的采用web标准开发，因此你不用采用任何特定的框架，就可以在主流浏览器上使用D3.js。综合了强大的可视化组件和基于数据驱动文档的强大特性。 </p>
+        <p>D3.js 是基于数据驱动文档工作方式的一款js函数库。你可以基于现有的HTML、SVG和CSS技术对数据进行可视化。D3.js注重对web标准的兼容，使你不用采用任何额外的框架，就可以在主流浏览器上使用D3.js。同时，D3.js 拥有强大的可视化组件和基于数据驱动文档的强大特性。 </p>
 <h2 id="相关资源">相关资源</h2>
-<p>. <a href="http://baidu.com" target="_blank" rel="external">使用介绍</a><br>. <a href="http://baidu.com" target="_blank" rel="external">未例画廊</a><br>. <a href="http://baidu.com" target="_blank" rel="external">教程和演讲</a><br>. <a href="http://baidu.com" target="_blank" rel="external">接口文档</a><br>. <a href="http://baidu.com" target="_blank" rel="external">发布说明</a><br>. <a href="http://baidu.com" target="_blank" rel="external">插件</a><br>. <a href="http://baidu.com" target="_blank" rel="external">d2.js on Stack Overflow</a><br>. <a href="http://www.baidu.com" target="_blank" rel="external">d3.js Google Group</a></p>
-<h2 id="兼容性">兼容性</h2>
-<p>D3.js 几乎支持所有的主流浏览器，除了IE8以下。D3.js 经过Firefox、Chrome、Safari、Opera、IE9+、Android和OS的测试通过。D3.js的部分组件估计能够在老旧的浏览器运行，D3.js 核心组件需要满足最低的需求：</p>
 <ul>
-<li>JavaScript 和 W3C DOM API。</li>
-<li>第一级选择器API(你可以提前导入<a href="http://www.baidu.com" target="_blank" rel="external">Sizzle</a>以提供兼容性)</li>
-<li>你同时也需要一个现代浏览器，这样你就可以使用SVG和CSS3 Transitions技术。</li>
+<li><a href="http://d3js.org/" target="_blank" rel="external">介绍</a></li>
+<li><a href="/mbostock/d3/wiki/Gallery">示例画廊</a></li>
+<li><a href="/mbostock/d3/wiki/Tutorials">教程和演讲集</a></li>
+<li><a href="/mbostock/d3/wiki/API-Reference">接口文档</a></li>
+<li><a href="/mbostock/d3/releases">版本日志</a></li>
+<li><a href="/d3/d3-plugins">插件</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/d3.js" target="_blank" rel="external">d3.js on Stack Overflow</a></li>
+<li><a href="http://groups.google.com/group/d3-js" target="_blank" rel="external">d3-js Google Group</a></li>
 </ul>
-<p>D3.js 不是一个兼容层，所以如果你的浏览器如果不是根据标准开发，那非常抱歉，你不能使用D3.js</p>
-<p>D3.js 同样可以运行在node.js上面。使用命令<code>npm install d3</code>来进行安装，同时``require(“d3”)来启用。在Node.js上面，你可以使用SDOM进行一些有限的DOM支持。D3同样也可以配合WebWorker进行使用，能过编译一个自定义版本仅包含你需要的功能特性。</p>
+<h2 id="兼容性">兼容性</h2>
+<p>除了IE8及以下，D3.js几乎支持所有的主流浏览器。D3.js 已在Firefox、Chrome、Safari、Opera、IE9+、Android和iOS上测试通过。只要有JavaScript 和 W3C DOM API，D3.js 的核心组件就可以运行，因此部分D3.js组件可以运行在老旧的浏览器上面。D3.js 使用<code>Selectors API Level 1</code>，但是你可以通过在插件<a href="http://sizzlejs.com/" target="_blank" rel="external">Sizzle</a>提供兼容性解决。你如果要使用SVG和CSS3 Transitions技术，你就需要一个“现代化”的浏览器了。<br>D3.js 并没有提供一个兼容性的解决方案，如果你的浏览器不是遵循web标准开发，那非常抱歉，你不能使用D3.js。</p>
+<p>D3.js 同样可以运行在Node.js上面。通过<code>npm install d3</code>来进行安装，同时调用<code>require(&quot;d3&quot;)</code>来启用。在Node.js上面，你需要使用<a href="https://github.com/tmpvar/jsdom" target="_blank" rel="external">JSDOM</a>提供一些有限的DOM支持。D3同样也可以配合WebWorker进行使用，但是你需要编译一个<a href="https://github.com/mbostock/smash/wiki" target="_blank" rel="external">自定义</a>仅包含你需要的功能（non-DOM）特性版本。</p>
 <h2 id="安装">安装</h2>
-<p>点击下面这个链接下载<br>. <a href="https://github.com/mbostock/d3/releases" target="_blank" rel="external">http://github.com/mbostock/d3/releases</a><br>或者，可以引入最新版本的链接。复制下面的代码片段</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://d3js.org/d3.v3.min.js"</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span><span class="javascript">&lt;script&gt;</span></div></pre></td></tr></table></figure>
+<p>点击下面这个链接下载</p>
+<ul>
+<li><a href="https://github.com/mbostock/d3/releases" target="_blank" rel="external">https://github.com/mbostock/d3/releases</a></li>
+</ul>
+<p>或者，复制下面的代码片段，插入到你的页面中：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://d3js.org/d3.v3.min.js"</span> <span class="attribute">charset</span>=<span class="value">"utf-8"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></div></pre></td></tr></table></figure>
 
-<p>提示：<br>未经压缩的源码包含非ASCII码，使用时，必须标明utf-8格式，或者设置<code>charset=&quot;utf-8&quot;属性在script标签，也可以在html文档的头部添加</code><meta charset="utf-8">标签.如果你看到如下语法错误：Unexpected token ILLEGAL　at　var xx = Math.PI，那是因为你使用了不正确的ISO-8850-1编码格式使用源码文件。更多信息，前往<a href="http://www.baidu.com" target="_blank" rel="external">StackOverflow answer</a>获取更多消息</p>
-<p>如果你想获取包括测试库在内整个库，下载和clone下面的D3 git库：<br>. <a href="https://github.com/mbostock/d3/zipball/master" target="_blank" rel="external">https://github.com/mbostock/d3/zipball/master</a></p>
-<p>你同样可以通过包管理工具，包括：NPM，BOWER，Browerify,Component,Jam,COmposer/Packageist/,SPM,JSPM,Nuget和AMD获取D3.js.官方发布只有在NPM和github；对于其它包管理工具的支持，是非官方的，同时由contributors负责维护。</p>
+<p><strong>提示</strong>：未经压缩的源码包含非ASCII码，使用时，必须标明utf-8格式，或者å¨script标签设置<code>charset=&quot;utf-8&quot;</code>属性，也可以在html文档的头部添加<code>&lt;meta charset=&quot;utf-8&quot;&gt;</code>标签。如果你看到如下语法错误：<code>Unexpected token ILLEGAL　at　var xx = Math.PI</code>，那是因为你使用了ISO-8850-1编码格式使用源码文件。获取更多信息，请前往<a href="http://stackoverflow.com/a/14301241" target="_blank" rel="external">StackOverflow answer</a></p>
+<p>如果你想获取包括测试库在内的所有资源，下载或者<code>clone</code>下面的D3 git库：</p>
+<ul>
+<li><a href="https://github.com/mbostock/d3/zipball/master" target="_blank" rel="external">https://github.com/mbostock/d3/zipball/master</a></li>
+</ul>
+<p>你同样可以通过包管理工具，包括：<a href="https://npmjs.org/package/d3" target="_blank" rel="external">NPM</a> (Node.js), <a href="http://bower.io/search/?q=d3" target="_blank" rel="external">Bower</a>, <a href="http://browserify.org/" target="_blank" rel="external">Browserify</a>, <a href="http://component.io/" target="_blank" rel="external">Component</a>, <a href="http://jamjs.org/packages/#/details/d3" target="_blank" rel="external">Jam</a>, <a href="https://packagist.org/packages/mbostock/d3" target="_blank" rel="external">Composer / Packagist</a> (PHP), <a href="https://spmjs.org/gallery/d3/" target="_blank" rel="external">SPM</a>, <a href="http://jspm.io/" target="_blank" rel="external">JSPM</a>, <a href="https://www.nuget.org/packages/d3/" target="_blank" rel="external">NuGet</a> (.Net), 和 <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank" rel="external">AMD</a> (e.g., <a href="http://requirejs.org/" target="_blank" rel="external">RequireJS</a>). 获取D3.js。官方目前只维护NPM和github和的版本。其它包管理工具，由开源社区的contributors负责维护。</p>
 <h2 id="使用">使用</h2>
-<p>本地开发时，记住你的浏览器很可能会以严格的权限控制你从文件系统读取文件。如果你使用d3.xhr读取本地文件(当然也包括 d3.json)，你必须要启动一个web server。例如，你可以启动python内置的server:</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">python</span> -<span class="keyword">m</span> SimpleHTTPServer <span class="number">8888</span> &</div></pre></td></tr></table></figure>
+<p>本地开发时，浏览器会禁止系统直接读取文件。当你使用<code>d3.xhr</code>读取本地文件(当然也包括 <code>d3.json</code>)时，你需要启动一个web server。例如，你可以启动python内置的server:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python -m SimpleHTTPServer <span class="number">8888</span> &</div></pre></td></tr></table></figure>
 
 <p>如果是python 3+</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">python</span> -<span class="keyword">m</span> http.server <span class="number">8888</span> &</div></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python -m http.server <span class="number">8888</span> &</div></pre></td></tr></table></figure>
 
 <p>如果你电脑上安装了PHP,你可以试试：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -S localhos<span class="variable">t:8888</span></div></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -S localhost:<span class="number">8888</span></div></pre></td></tr></table></figure>
 
 <p>或者安装了Ruby，你可以</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ruby -run <span class="operator">-e</span> http . -p <span class="number">8888</span></div></pre></td></tr></table></figure>
+<figure class="highlight Ruby"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ruby -run -e httpd . -p <span class="number">8888</span></div></pre></td></tr></table></figure>
 
-<p>当启动后，请前往<a href="http://localhost:8888/.访问" target="_blank" rel="external">http://localhost:8888/.访问</a></p>
-<p>亦或者你跑在nodejs上面的话，你可以</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span> http-<span class="keyword">server</span> -g</span></div><div class="line">http-<span class="keyword">server</span></div></pre></td></tr></table></figure>
+<p>启动成功后，通过<a href="http://localhost:8888/" target="_blank" rel="external">http://localhost:8888/</a>访问</p>
+<p>亦或者你跑在Node.js上面的话，你可以</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install http-server -g</div><div class="line">http-server</div></pre></td></tr></table></figure>
 
-<p>另一个选项就是在本地启动一个jetty实例，通过使用jetty-runner库，前得是，你电脑上安装有JVM。为了达到此目的，你需要先下载<a href="http://test.com" target="_blank" rel="external">jetty-runner</a>,然后向简单的做：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment">java</span> <span class="literal">-</span><span class="comment">jar</span> <span class="comment">jetty</span><span class="literal">-</span><span class="comment">runner</span><span class="literal">-</span><span class="comment">9</span><span class="string">.</span><span class="comment">3</span><span class="string">.</span><span class="comment">0</span><span class="string">.</span><span class="comment">M0</span><span class="string">.</span><span class="comment">jar</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">port</span> <span class="comment">8080</span></div></pre></td></tr></table></figure>
+<p>server后，执行下面的命令：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">java -jar jetty-runner-<span class="number">9.3</span>.<span class="number">0</span>.<span class="variable">M0</span>.jar  --port <span class="number">8080</span>  .</div></pre></td></tr></table></figure>
 
-<p>然后通过<a href="http://localhost:8080访问。" target="_blank" rel="external">http://localhost:8080访问。</a></p>
-<p>D3支持异步模块<a href="http://test.com" target="_blank" rel="external">AMD</a> API.例如，如果你使用RequireJS,你可以这样使用：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">require</span>.config({paths:{d3:<span class="string">"http://d3js.org/d3.v3.min"</span>}});</div><div class="line"></div><div class="line"><span class="built_in">require</span>([<span class="string">"d3"</span>], <span class="function"><span class="keyword">function</span><span class="params">(d3)</span> </span>{</div><div class="line"><span class="built_in">console</span>.log(d3.version);});</div></pre></td></tr></table></figure>
+<p>然后通过<a href="http://localhost:8080" target="_blank" rel="external">http://localhost:8080</a>访问。</p>
+<p>D3同样支持<a href="http://test.com" target="_blank" rel="external">AMD</a> API。如果你使用RequireJS，使用方式：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">require</span>.config({paths: {d3: <span class="string">"http://d3js.org/d3.v3.min"</span>}});</div><div class="line"></div><div class="line"><span class="built_in">require</span>([<span class="string">"d3"</span>], <span class="function"><span class="keyword">function</span><span class="params">(d3)</span> </span>{</div><div class="line">  <span class="built_in">console</span>.log(d3.version);</div><div class="line">});</div></pre></td></tr></table></figure>
 
 <h2 id="代码贡献">代码贡献</h2>
-<p>如果你想更改d3的实现方式，请点击页面右上角的”Form”按钮，然后clone你的库，在命令行页面下面输入下面的命令（username要改成你的github上的username:</p>
+<p>如果你想对D3进行修改的话，请点击页面右上角的”Fork”按钮，然后clone下面的链接(<strong>注意</strong>：username要改成你的github上的username)</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone gi<span class="variable">t:</span>//github.<span class="keyword">com</span>/username/d3.git</div></pre></td></tr></table></figure>
 
-<p>如果你想给D3增加新的特性，修改bug,或者测试D3，你需要fork D3的库，同时安装Node.js(version 0.10x or 更新版本).在库的根目录，你可以安装D3.依赖：</p>
+<p>如果你想给D3增加新的特性，修改bug,或者测试D3，你需要fork D3的库并clone到本地，同时安装Node.js(version 0.10x or 更新版本)。接着，在库的根目录下，执行下面命令：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm <span class="operator"><span class="keyword">install</span></span></div></pre></td></tr></table></figure>
 
-<p>运行测试，</p>
+<p>运行测试方式：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">make</span> test</div></pre></td></tr></table></figure>
 
 
@@ -158,121 +168,6 @@
 
 
   
-    <article id="post-My-new-Post" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/12/21/My-new-Post/" class="article-date">
-  <time datetime="2014-12-21T07:17:21.000Z" itemprop="datePublished">Dec 21 2014</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/LIFE/">LIFE</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/12/21/My-new-Post/">全年总结，来年计划</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>赶在2014年的年底，我把自己的博客搭建起来了。虽然是采用成熟的框架做起来的，没有按照自己预想的自己全新设计，但也算完成了这一年的任务之一，心里还是挺高兴的。</p>
-<h2 id="14年总结">14年总结</h2>
-<h3 id="做成了几件事">做成了几件事</h3>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">1. </span>上线了自己的APP</div><div class="line"><span class="bullet">2. </span>开了个股票账户</div><div class="line"><span class="bullet">3. </span>看了几本书</div></pre></td></tr></table></figure>
-
-<h2 id="15年全年安排">15年全年安排</h2>
-<h3 id="完成两个应用的开发">完成两个应用的开发</h3>
-<ol>
-<li>通讯录APP开发</li>
-<li>睡眠APP开发</li>
-</ol>
-<h3 id="学会股票投资">学会股票投资</h3>
-<ol>
-<li>通过证券从业资格考试</li>
-<li>学会炒股</li>
-</ol>
-<h3 id="成为专业前端">成为专业前端</h3>
-<h3 id="对大型网站构建小有研究">对大型网站构建小有研究</h3>
-<h3 id="翻译几篇文章，同时原创几篇文章">翻译几篇文章，同时原创几篇文章</h3>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wangdong.me/2014/12/21/My-new-Post/" data-id="19uk0vgabi6t4t6y" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/展望/">展望</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/总结/">总结</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/计划/">计划</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/12/19/hello-world/" class="article-date">
-  <time datetime="2014-12-19T13:57:03.000Z" itemprop="datePublished">Dec 19 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2014/12/19/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://wangdong.me/2014/12/19/hello-world/" data-id="oh6muk2jekhlvjhu" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
   
 </section>
         
@@ -282,7 +177,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/D3-js/">D3.js</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/LIFE/">LIFE</a><span class="category-list-count">1</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/D3-js/">D3.js</a><span class="category-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -291,7 +186,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/d3-js/">d3.js</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/展望/">展望</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/总结/">总结</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/计划/">计划</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/d3-js/">d3.js</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -300,7 +195,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/d3-js/" style="font-size: NaNpx;">d3.js</a><a href="/tags/展望/" style="font-size: NaNpx;">展望</a><a href="/tags/总结/" style="font-size: NaNpx;">总结</a><a href="/tags/翻译/" style="font-size: NaNpx;">翻译</a><a href="/tags/计划/" style="font-size: NaNpx;">计划</a>
+      <a href="/tags/d3-js/" style="font-size: 20.00px;">d3.js</a><a href="/tags/展望/" style="font-size: 10.00px;">展望</a><a href="/tags/总结/" style="font-size: 10.00px;">总结</a><a href="/tags/翻译/" style="font-size: 20.00px;">翻译</a><a href="/tags/计划/" style="font-size: 10.00px;">计划</a>
     </div>
   </div>
 
@@ -309,7 +204,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -322,14 +217,6 @@
         
           <li>
             <a href="/2014/12/27/d3js-introduction/">D3.js介绍(翻译)</a>
-          </li>
-        
-          <li>
-            <a href="/2014/12/21/My-new-Post/">全年总结，来年计划</a>
-          </li>
-        
-          <li>
-            <a href="/2014/12/19/hello-world/">Hello World</a>
           </li>
         
       </ul>
